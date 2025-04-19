@@ -1,38 +1,40 @@
- Python Quiz Game
-This is a simple command-line based quiz game built using Python. It presents a series of multiple-choice questions to the user, checks the answers in real-time, and displays the final score along with the correct answers.
+# 🧠 Python Quiz Game
 
-🚀 Features
-Multiple-choice questions with four options (A, B, C, D)
+This is a simple **command-line based quiz game** built using Python. It presents a series of multiple-choice questions to the user, checks the answers instantly, and displays the final score at the end.
 
-Real-time feedback (Correct/Wrong) for each answer
+---
 
-Final results summary displaying:
 
-All correct answers
+## 🚀 Features
 
-User’s guesses
+- ✅ Multiple-choice questions with four options (A, B, C, D)
+- ✅ Real-time feedback: "Correct" or "Wrong"
+- ✅ Displays final score
+- ✅ Shows all correct answers vs. user guesses
 
-Total score
+---
 
-📄 How It Works
-The user is prompted with a series of questions.
+## 📄 How It Works
 
-For each question, the user inputs their answer.
+1. The program displays each question and the available options.
+2. The user inputs their guess (A, B, C, or D).
+3. The program checks if the guess is correct and keeps score.
+4. After the final question, the program shows:
+   - Correct answers
+   - User guesses
+   - Total score
 
-The program checks whether the answer is correct.
+---
 
-After all questions are answered, it displays the result with a comparison of correct answers vs. user guesses.
+## 🛠️ Technologies Used
 
-🛠️ Technologies Used
-Python 3
+- **Python 3**
 
-✨ Future Enhancements (Ideas)
-Add a scoring percentage or time limit
+---
 
-Load questions from a JSON or text file
+### 🚦 Run the game
 
-Allow replaying the quiz
-
-Use GUI (e.g., Tkinter or PyQt) for better interactivity
-
-Support for more question categories
+```bash
+git clone https://github.com/your-username/quiz-game-python.git
+cd quiz-game-python
+python quiz_game.py
